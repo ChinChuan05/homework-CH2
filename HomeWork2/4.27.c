@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include <math.h>
 
-int i, j, k;
+int i, j;
+float k;
 
 int main() {
     for(i=1;i<=500;i++){
-        for(j=1;j<=500;j++){
-            for(k=1;k<=500;k++){
-                if(pow(i, 2) + pow(j, 2) == pow(k, 2) && k<=500)
-                    printf("%d %d %d\n", i, j, k);
-            }
+        for(j=1;j<=500-i;j++){
+            k = sqrt(i*i+j*j);
+            if (k-floor(k) == 0 && k!= 0)
+                printf("%d %d %.0f\n", i, j, k);
         }
     }
 }

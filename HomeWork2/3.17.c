@@ -3,21 +3,21 @@
 
 float account, begin_bal, charged, credits, limit;
 
-int main() {
+int F3017() {
 	while(1){
 		printf("Enter account number (-1 to end): ");
-		scanf("%f", &account);
+		scanf_s("%f", &account);
 		if(account == -1)
 			break;
 			
 		printf("\nEnter balance at the beginning of mouth: ");
-		scanf("%f", &begin_bal);
+		scanf_s("%f", &begin_bal);
 		printf("\nEnter total charges: ");
-		scanf("%f", &charged);
+		scanf_s("%f", &charged);
 		printf("\nEnter total caredits: ");
-		scanf("%f", &credits);
+		scanf_s("%f", &credits);
 		printf("\nEnter credit limit: ");
-		scanf("%f", &limit);
+		scanf_s("%f", &limit);
 
 		printf("\nAccount:\t%.2f", account);
 		printf("\nCredit Limit:\t%.2f", limit);
@@ -31,4 +31,5 @@ int main() {
 			printf("Not Exceed\n");
 		}
 	}
+	return 0;
 }

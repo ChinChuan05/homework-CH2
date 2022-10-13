@@ -1,2 +1,10 @@
-int Credit_Limit_Calculator();
-
+void F3017();
+void F3018();
+void F3019();
+void F3020();
+void F3033();
+void F4015();
+void F4016();
+void F4027();
+void F4028();
+void F4031();

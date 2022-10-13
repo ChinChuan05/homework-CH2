@@ -3,11 +3,11 @@
 
 int length, breadth;
 
-int main() {
+int F3033() {
     printf("Enter length: ");
-    scanf("%d", &length);
+    scanf_s("%d", &length);
     printf("\nEnter breath: ");
-    scanf("%d", &breadth);
+    scanf_s("%d", &breadth);
 
     for(int i=1;i<=length;i++) {
         for(int j=1;j<=breadth;j++){

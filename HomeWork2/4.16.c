@@ -3,7 +3,7 @@
 
 int i, j, k;
 
-int main() {
+int F4016() {
     printf("(A)\n");
     for(i=1;i<=10;i++){
         for(j=0;j<i;j++){

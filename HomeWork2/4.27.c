@@ -5,7 +5,7 @@
 int i, j;
 float k;
 
-int main() {
+int F4027() {
     for(i=1;i<=500;i++){
         for(j=1;j<=500-i;j++){
             k = sqrt(i*i+j*j);

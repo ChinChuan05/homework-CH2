@@ -3,10 +3,10 @@
 
 float sale;
 
-int main() {
+int F3018() {
     while(1){
         printf("Enter sales in dollars (-1 to end): ");
-        scanf("%f", &sale);
+        scanf_s("%f", &sale);
         if(sale == -1)
             break;
 

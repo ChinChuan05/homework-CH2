@@ -3,7 +3,7 @@
 
 int num[5] = {9, 7, 5, 3, 1};
 
-int main() {
+int F4031() {
     for(int i=4;i>=-4;i--){
         for(int j=0;j<abs(i);j++){
             printf(" ");
@@ -14,8 +14,8 @@ int main() {
         }
         printf("\n");
     }
+	return 0;
 }
-
 /*
 4:1
 3:3

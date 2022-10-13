@@ -11,10 +11,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="3.17.c">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="3.17.c">
+    <ClCompile Include="3.18.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="3.19.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="3.20.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="3.33.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="4.15.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="4.16.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="4.27.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="4.28.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="4.31.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
